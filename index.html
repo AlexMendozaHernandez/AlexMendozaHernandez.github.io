@@ -11,6 +11,13 @@
 			padding: 0;
       background-color: #e3e1e1;
 		}
+		
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>CongressWeb Plugin Example</title>
+				<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
 
 		header {
 			background-color: #333;
@@ -114,6 +121,18 @@ Thank you for visiting my website, and feel free to reach out to me with any que
     <a class="twitter-timeline" data-width="310" data-height="575" data-theme="dark" href="https://twitter.com/MendozaPolitics?ref_src=twsrc%5Etfw">Tweets by MendozaPolitics</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </section>
   
+						<script language="javascript" src="https://www.congressweb.com/CongressWeb/js/jquery.congressweb.iframe.js"></script>
+						<script language="javascript">
+										$cweb(function() {
+														$cweb('#congressweb-websticker-19').congressweb({
+																		url: 'https://www.congressweb.com/dosomething/TakeAction/oneAction/lettergroupid/19',
+																		responsive: true,
+																		isWebsticker: true
+																		});
+															});
+						</script>
+						<div id="congressweb-websticker-19" style="box-shadow: 0 0 2px 2px #ddd; max-width: 500px></div>
+	
 	<footer>
 		<p>Copyright &copy; 2023 Alex Mendoza-Hernandez.</p>
 	</footer>
